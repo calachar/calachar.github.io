@@ -1,0 +1,21 @@
+div{
+    background-color:pink;
+    text-align: center;
+    top:20px;
+    
+    width:75%;
+    padding:2%;
+}
+div>div{
+     background-color:blue;
+     width:75%;
+     margin: auto;
+     text-align: center;
+}
+
+table{
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+}
