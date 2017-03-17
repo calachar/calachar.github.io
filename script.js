@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', bindButtons);
 		//THE GRAPH CREATOR
         
         var req = new XMLHttpRequest();
-		req.open("POST", "http://flip2.engr.oregonstate.edu:3493/", true);
+		req.open("POST", "https://flip2.engr.oregonstate.edu:3493/", true);
 		req.addEventListener('load',function(){
         if(req.status >= 200 && req.status < 400){
 			createTable(req);
